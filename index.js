@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 function showRepositories(event, data) {
     //this is set to the XMLHttpRequest object that fired the event
     console.log(this.responseText);
@@ -49,10 +48,3 @@ function getCommits(el) {
       .join("")}</ul>`;
     document.getElementById("commits").innerHTML = commitsList;
   }
-=======
-function getRepos() {
-  const req = new XMLHttpRequest()
-  req.open("GET", "https://api.github.com/users/bmordan/repos")
-  req.send()
-}
->>>>>>> a8f003cc669b09367dd269bd26ab178c22d8b817
